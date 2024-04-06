@@ -22,6 +22,7 @@ public:
     }
 
     //Input: Integer. How many days forward the user wants the date to be moved up
+    //Process: Adds the integer to the current_day var and modulos it by 7 so the result is between 0 and 6
     //Output: Sets the current day to the day of the week that is x days ahead of what the day used to be
     void add_days(int i)
     {
